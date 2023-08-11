@@ -8,6 +8,7 @@ const app = express();
 const db = require('./config/database');
 const { PORT, MONGODB_URL, SESSION_SECRET_KEY } = process.env;
 const expressLayouts = require('express-ejs-layouts');
+const port = process.env.PORT || 5000;
 
 // used for session cookie
 const session = require('express-session');
@@ -79,9 +80,9 @@ app.use(customMware.setFlash);
 // use express router
 app.use('/', require('./routes'));
 
-app.listen( 5000, (err) => {
+app.listen( port, (err) => {
   if (err) {
     console.log(`Error in running the server: ${err}`);
   }
-  console.log(`Server is running on port: ${5000}`);
+  console.log(`Server is running on port: ${port}`);
 });
