@@ -4,7 +4,7 @@ This Employee review web application is created for employees to submit feedback
 
 ### 🔗 Hosted link: [Employee review system](https://employee-review-system-ze20.onrender.com/)
 
-![](./Images/1.png)
+![Home Page](./Images/1.png)
 
 ## ⚙️ Functionality
 
