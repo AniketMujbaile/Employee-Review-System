@@ -66,5 +66,4 @@ The project is running on the port number provided by you.
 ![](./Images/2.png)
 ![](./Images/3.png)
 ![](./Images/4.png)
-![](./Images/5.png)
 ![](./Images/6.png)
